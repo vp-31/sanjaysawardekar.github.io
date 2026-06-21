@@ -502,6 +502,12 @@ section {
   animation: fadeInRight 0.8s var(--ease-out) 0.3s both;
 }
 
+/* Photo + Counter Wrapper */
+.photo-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 .hero-photo-frame {
   position: relative;
   width: 320px;
@@ -515,7 +521,6 @@ section {
 .hero-photo-frame .photo-placeholder {
   width: 100%;
   height: 100%;
-  border-radius: calc(var(--radius-lg) - 2px);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -527,7 +532,6 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--radius-lg);
 }
 
 .hero-photo-frame .photo-placeholder .placeholder-icon {
