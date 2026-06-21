@@ -1297,7 +1297,6 @@ section {
   align-items: center;
   justify-content: center;
   transition: all var(--duration-fast);
-  opacity: 0.5;
 }
 
 .footer-social .social-icon-link:hover {
