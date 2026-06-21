@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Navy Circle Background -->
+  <circle cx="32" cy="32" r="30" fill="#0B1E3D"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#C8963E" stroke-width="1.5"/>
+
+  <!-- SS Monogram in Gold -->
+  <text x="32" y="39" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Playfair Display', 'Georgia', serif"
+        font-weight="700"
+        font-size="28"
+        fill="#C8963E"
+        letter-spacing="2">
+    SS
+  </text>
+
+  <!-- Subtle 38 mark -->
+  <text x="32" y="54" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Inter', system-ui, sans-serif"
+        font-weight="600"
+        font-size="8"
+        fill="#D4A94E"
+        letter-spacing="1">
+    38
+  </text>
+</svg>
